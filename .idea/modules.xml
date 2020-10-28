@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NativeApps.iml" filepath="$PROJECT_DIR$/.idea/modules/NativeApps.iml" group="NativeApps" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="NativeApps/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NativeApps.iml" filepath="$PROJECT_DIR$/.idea/modules/NativeApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NativeApps.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NativeApps.app.iml" />
     </modules>
   </component>
 </project>

@@ -5,12 +5,8 @@
     <data>
 
         <variable
-            name="person"
-            type="com.example.nativeapps.Person" />
-
-        <variable
-            name="clickListener"
-            type="android.view.View.OnClickListener" />
+            name="viewModel"
+            type="com.example.nativeapps.HomeViewModel" />
 
         <variable
             name="navigateClickListener"
@@ -26,7 +22,7 @@
             android:id="@+id/text_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{person.firstName}"
+            android:text="@{viewModel.person.firstName}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:onClick="@{clickListener}"
+            android:onClick="@{() -> viewModel.onCreateButtonClicked()}"
             android:text="Create"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
